@@ -96,8 +96,8 @@
 }
 
 #contact ul li:hover {
- background-color: var(--light)!important;
- color: var(--dark)
+ transform: scale(1.2) ;
+ transition: .7s transform ease-in-out;
 }
 
 @media screen and (max-width: 1000px) {

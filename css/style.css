@@ -1,0 +1,126 @@
+
+ * {
+    margin:0 !important;
+    padding:0 !important;
+ }
+
+ /* V A R I A B L E S */
+ :root {
+  --light: #EAEEEF;
+  --medium: #9EABB3;
+  --dark: #4F6C77;
+  --blue: #A7C4D4;
+  --lightorange: #F6E8DA;
+ }
+
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@1,700&display=swap');
+
+ body {
+  background-color: aliceblue;
+ }
+
+ main {
+  width: 100%;
+ }
+
+ h1 {
+  font-family: 'Crimson Text', serif;
+  letter-spacing: 10px;
+  color: #4F6C77;
+ }
+
+.nav {
+ background-color: var(--blue);
+ color: white;
+}
+
+/* A B O U T */
+.jumbotron {
+ background-color: var(--lightorange);
+}
+
+#about .container {
+ margin: 0 auto !important;
+}
+
+/* P O R T F O L I O */
+#portfolio {
+ justify-content: center;
+ background-color: var(--blue);
+ width: 100%;
+}
+
+.card {
+ margin: 20px 40px !important;
+ position: relative;
+ min-width: 350px;
+ max-width: 350px;
+ min-height: 400px;
+}
+
+.btn {
+ position: absolute;
+ bottom: 15px;
+ background-color: var(--medium);
+}
+
+.btn:hover {
+ box-shadow: 4px 4px  var(--dark);
+}
+
+/* S K I L L S */
+#skills {
+ background-color: var(--light);
+}
+
+#skills i {
+ font-size: 60px;
+}
+
+#skills div {
+ flex-wrap: wrap;
+}
+
+#skills div div {
+ flex-direction: column;
+}
+
+/* C O N T A C T */
+#contact {
+ background-color: var(--dark);
+ width: 100%;
+}
+
+#contact ul {
+ list-style-type: none;
+}
+
+#contact ul li:hover {
+ background-color: var(--light)!important;
+ color: var(--dark)
+}
+
+@media screen and (max-width: 1000px) {
+  h1 {
+   margin: 0 auto;
+  }
+  ul {
+   width: 100%;
+   margin: 0 auto;
+  }
+  .container {
+  
+   flex-direction: column;
+   width: 100%;
+  }
+  .container h1 {
+   letter-spacing: 2px;
+   font-size: 30px;
+  }
+  .container img {
+   width: 200px;
+  }
+  #contact div ul {
+   flex-direction: column;
+  }
+}

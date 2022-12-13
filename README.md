@@ -2,8 +2,8 @@
 
 ## Description
 
-This Bootstrap-Portfolio project represents my skills of using CSS framework - Boostrap. It includes examples of other smaller projects to show the usage . 
-.
+This Bootstrap-Portfolio project represents my ability in using CSS framework - Boostrap. It includes About section, Portfolio section with examples of other smaller projects and Skills section where I show skills that I would like to achieve. 
+
 
 ## Screenshots
 
